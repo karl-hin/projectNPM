@@ -1,12 +1,26 @@
 {
   "name": "npmVueJs",
   "version": "1.0.0",
-  "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "image": "node index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karl-hin/projectNPM.git"
+  },
+  "bugs": {
+    "url": "https://github.com/karl-hin/projectNPM/issues"
+  },
+  "homepage": "https://github.com/karl-hin/projectNPM#readme",
+  "description": "",
+  "dependencies": {
+    "imagemin": "^8.0.0",
+    "imagemin-pngquant": "^9.0.2"
+  }
 }
